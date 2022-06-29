@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+@font-face{
+  font-family: My_Font;
+  src:url('font/font.ttf.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  box-sizing: border-box;
+  font-family: Raleway;
+  color:#333;
+}
+html, body{
+  margin: 0%;
+  padding: 0;
+  min-height: 100%;
+}
+
+body{
+  position: relative;
+min-height: 1150px;
+}
+.nav ul{
+  margin: 0;
+}
+.nav li{
+  display: inline;
+}
+.nav a{
+  display: inline-block;
+  padding: .5em;
+  color: #FEFFEC;
+  text-decoration: none;
+}
+.main-nav{
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.main-nav li{
+  padding: 0 5%;
+}
+
+.btn{
+	background-color:#ae8625;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;  
+}
+.btn:hover{
+	background-color: transparent;
+	border: 2px solid #ae8625;
+	cursor: pointer;
+}
+.main-header{
+  background-color: #141414;
+  background-blend-mode: multiply;
+  background-size:cover;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.band-name{
+  text-align:center;
+  margin: 0;
+  font-size: 2em;
+  font-family:My_Font;
+  font-weight: normal;
+  color: #ae8625;
+}
+
+.band-name-large {
+  font-size: 2em;
+}
+
+.content-section-container{
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+
+.about-background{
+  min-width:  100%;
+  min-height: 100%;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+section.content-section-container{
+  background-color:#333;
+}
+
+section.content-section-container p{
+  color: #686d75;
+}
+
+section.content-section-container li{
+  color: #686d75;
+}
+
+.Peeps{
+  text-align:left;
+  margin-left: 30%;
+  margin-top: 4%;
+  text-overflow: clip;
+}
+
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header{
+  font-family: My_Font;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ae8625;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.about-band-image{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 50%;
+}
+.main-footer{
+  text-align:center;
+  align-items: center;
+  display: flex;
+  background-color: #141414;
+  padding-top: auto;
+  position:absolute;
+  bottom: auto;
+  width: 100%;
+}
+
+.main-footer-container p{
+  color: #ae8625;
+  font-style:tahoma;
+  font-weight: bolder;
+}
+
+.footer-nav{
+  width: 20px;
+  height: 20px;
+}
+
+.social{
+	display: flex;
+  padding-left: 30%;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #ae8625;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
